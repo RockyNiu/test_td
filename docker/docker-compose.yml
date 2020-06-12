@@ -1,0 +1,9 @@
+version: '3.7'
+
+networks:
+  default:
+    external: 
+      name: td
+services:
+  td:
+    image: 'tdengine/tdengine:1.6.5.9'
