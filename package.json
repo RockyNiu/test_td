@@ -1,0 +1,25 @@
+{
+  "name": "test_td",
+  "version": "0.0.1",
+  "description": "Test repo for TDEngine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RockyNiu/test_td.git"
+  },
+  "keywords": [
+    "TDEngine"
+  ],
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/RockyNiu/test_td/issues"
+  },
+  "homepage": "https://github.com/RockyNiu/test_td#readme",
+  "dependencies": {
+    "td-connector": "1.6.1"
+  }
+}
