@@ -9,3 +9,15 @@ services:
     image: 'tdengine/tdengine:1.6.5.9'
     ports: 
       - 6020
+  test:
+    image: 'test:development'
+    volumes:
+      - ../:/opt/td
+    ports:
+      - 5858:5858
+    command: bash -c "
+      cd /opt/td
+      && rm -rf ./node_modules
+      && npm i --unsafe-perm
+      && npm run tsc
+      && node /opt/td/dist-server/apps/index.js"
