@@ -5,5 +5,7 @@ networks:
     external: 
       name: td
 services:
-  td:
+  tdengine:
     image: 'tdengine/tdengine:1.6.5.9'
+    ports: 
+      - 6020

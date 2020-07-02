@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/RockyNiu/test_td#readme",
   "dependencies": {
+    "@types/node": "14.0.14",
     "td-connector": "1.6.1",
     "typescript": "3.9.6"
   }
