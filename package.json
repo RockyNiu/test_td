@@ -8,7 +8,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "node ./node_modules/typescript/lib/tsc.js -p ./tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/RockyNiu/test_td#readme",
   "dependencies": {
-    "td-connector": "1.6.1"
+    "td-connector": "1.6.1",
+    "typescript": "3.9.6"
   }
 }

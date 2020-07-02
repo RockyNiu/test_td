@@ -35,3 +35,4 @@ Target/
 *.failed
 *.sql
 node_modules
+dist-server

@@ -1,0 +1,28 @@
+{
+    "include": [
+        "./apps/**/*"
+    ],
+    "exclude": [
+    ],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "lib": [
+            "dom",
+            "es6",
+            "es2015.promise",
+            "es7",
+            "ESNext.AsyncIterable"
+        ],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "noImplicitAny": false,
+        "outDir": "./dist-server",
+        "paths": {
+            "*": ["*"]
+        },
+        "rootDir": "./",
+        "sourceMap": true,
+        "target": "es5"
+    }
+}
